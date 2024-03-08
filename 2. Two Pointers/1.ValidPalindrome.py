@@ -1,3 +1,7 @@
+
+#leetcode 125
+
+
 def isPalindrome(nums):
     res = "".join([i for i in nums if i.isalnum()]).lower()
     l, r =0, len(res) - 1
